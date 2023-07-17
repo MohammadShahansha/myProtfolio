@@ -11,12 +11,12 @@ const Benner = () => {
                 <div className='text-animate'>
                     <h2>Mern Stack Developer</h2>
                 </div>
-                <p>I am Mohammad Shahansha.I am a Bangladeshi.I read in Comilla University in 3rd year and My subject is B.Sc Engineering in Information & Communication Technology. </p>
+                <p className='mb-6 md:mb-auto'>I am Mohammad Shahansha.I am a Bangladeshi.I read in Comilla University in 3rd year and My subject is B.Sc Engineering in Information & Communication Technology. </p>
                 <div className='bttn-box'>
                     <a href="#" className='bttn'>Hire Me</a>
                     <a href="#" className='bttn'>Resume</a>
                 </div>
-                <div className='socials'>
+                <div className='socials mx-auto md:ms-0'>
                     <a href="#"><BsFacebook></BsFacebook></a>
                     <a href="#"><BsGithub></BsGithub></a>
                     <a href="#"><BsLinkedin></BsLinkedin></a>
