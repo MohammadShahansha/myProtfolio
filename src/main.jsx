@@ -11,6 +11,7 @@ import NavBar from './component/NavBar/NavBar';
 import About from './component/About/About';
 import Skills from './component/Skills/Skills';
 import Project from './component/Project/Project';
+import Contact from './component/Contact/Contact';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
       {
         path: "/project",
         element:<Project></Project>
+      },
+      {
+        path: "/contact",
+        element: <Contact></Contact>
       }
 
     ]
