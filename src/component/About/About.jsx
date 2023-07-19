@@ -14,7 +14,8 @@ const About = () => {
             <div className=' container'>
                 <h2 className='text-center text-3xl font-bold mb-5'>Mern Stack Developer</h2>
                 <p className='px-3 md:text-center'>
-                     As a MERN stack developer I am <span className='font-semibold text-xl'> specializes in using MongoDB, Express.js, React, and Node.js to develop full-stack web applications. I work with MongoDB for database management, Express.js for server-side development, React for client-side UI, and Node.js for server-side logic.</span> Responsibilities include designing the application architecture, implementing APIs, managing the database, building UI components, handling state management, and deploying the application.As well as I have <span className='font-semibold text-xl'> strong JavaScript, HTML, CSS skills </span> which are must essential, along with knowledge of web development principles and technologies.
+                I am Mohammad Shahansha.I am a Bangladeshi.I read in Comilla University in 3rd year and My subject is B.Sc Engineering in Information & Communication Technology
+                     As a MERN stack developer I am <span className='font-semibold'> specializes in using MongoDB, Express.js, React, and Node.js to develop full-stack web applications. I work with MongoDB for database management, Express.js for server-side development, React for client-side UI, and Node.js for server-side logic.</span> Responsibilities include designing the application architecture, implementing APIs, managing the database, building UI components, handling state management, and deploying the application.As well as I have <span className='font-semibold'> strong JavaScript, HTML, CSS skills </span> which are must essential, along with knowledge of web development principles and technologies.
                 </p>
                 {/* <div className='bttn-box'>
                     <a className='bttn' href="#">Read more</a>

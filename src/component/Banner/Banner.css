@@ -18,16 +18,15 @@
     
 }
 
-.benner-container .text-animate{
+.benner-container .text-animate span{
     margin-top: 10px;
     margin-bottom: 5px;
     font-size: 30px;
     font-weight: 700;
     color: transparent;
     -webkit-text-stroke: .7px var(--main-color);
-    
 }
-.benner-container .text-animate h2::before{
+.benner-container .text-animate span::before{
     content: '';
     position: absolute;
     top: 0;
