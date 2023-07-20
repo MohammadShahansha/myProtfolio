@@ -3,14 +3,14 @@ import './NavBar.css';
 
 const NavBar = () => {
     const navItem = <div className='lg:flex '>
-        <li><a href='#/' className='text-2xl font-semibold'>Home</a></li>
+        <li><a href='#home' className='text-2xl font-semibold'>Home</a></li>
         <li><a href='#about' className='text-2xl font-semibold'>About</a></li>
-        <li><a href='#skill' className='text-2xl font-semibold'>Skill</a></li>
+        <li><a href='#skills' className='text-2xl font-semibold'>Skill</a></li>
         <li><a href='#project' className='text-2xl font-semibold'>Project</a></li>
         <li><a href="#contact" className='text-2xl font-semibold'>Contact</a></li>
     </div>
     return (
-        <div className="navbar header">
+        <div className="navbar header ">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -20,7 +20,7 @@ const NavBar = () => {
                         {navItem}
                     </ul>
                 </div>
-                <a className="text-2xl sm:ms-0 md:ms-40 logo font-semibold">Mohammad  Shahansha</a>
+                <a className="text-2xl sm:ms-0 md:ms-40 logo font-semibold">Portfolio</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className=" px-1">

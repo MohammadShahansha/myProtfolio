@@ -3,7 +3,7 @@ import './Skills.css'
 
 const Skills = () => {
     return (
-        <div className='skills md:mx-[120px]'>
+        <div className='skills md:mx-[120px] pt-7' id='skills'>
             <h2 className='heading font-bold'>My <span className='text-[--main-color]'>Skills</span></h2>
             <div className='skills-row'>
                 <div className='skills-col'>

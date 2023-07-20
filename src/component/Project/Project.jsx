@@ -1,5 +1,7 @@
 import React from 'react';
+import ass9 from '../../assets/image/ass9.png'
 import ass10 from '../../assets/image/assi10.png'
+import ass11 from '../../assets/image/ass11.png'
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import { FaNodeJs, FaReact } from "react-icons/fa";
@@ -8,8 +10,8 @@ import './Project.css'
 
 const Project = () => {
     return (
-        <div className='project'>
-            <h2 className='heading font-bold'>My <span className='text-[--main-color]'>Project</span></h2>
+        <div className='project pt-7' id='project'>
+            <h2 className='heading font-bold'>My <span className='text-[--main-color]'>Projects</span></h2>
             <VerticalTimeline>
                 <VerticalTimelineElement
                     className="first-project"
@@ -25,13 +27,13 @@ const Project = () => {
                     </div>
                     <div class="image-wrap mb-[-10px]">
                         <a href="https://rahmanzeb.com">
-                            <img src={ass10} />
+                            <img src={ass11} />
                         </a>
                     </div>
                     <div className='bttn-box2 mx-auto mb-[-10px]'>
-                        <a href="#" className='bttn2' >Client Code</a>
-                        <a href="#" className='bttn2'>Server Code</a>
-                        <a href="#" className='bttn2'>Live Link</a>
+                        <a href="https://github.com/MohammadShahansha/artSchool-client" className='bttn2' >Client Code</a>
+                        <a href="https://github.com/MohammadShahansha/artSchool-server" className='bttn2'>Server Code</a>
+                        <a href="https://assignment-twelve-dfcd6.web.app/" className='bttn2'>Live Link</a>
                     </div>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
@@ -43,7 +45,7 @@ const Project = () => {
                     icon={<FaReact></FaReact>}
                 >
                     <div className='flex items-center mt-[-15px] mb-2'>
-                        <h1 className=' font-bold text-[--text-color]'>Technologys: <span className=' font-medium'>ReactJs, JavaScript, Node js, Mongodb</span></h1>
+                        <h1 className=' font-bold text-[--text-color]'>Technologys: <span className=' font-medium'>ReactJs, JavaScript(just Front-End)</span></h1>
                        
                     </div>
                     <div class="image-wrap mb-[-10px]">
@@ -52,9 +54,9 @@ const Project = () => {
                         </a>
                     </div>
                     <div className='bttn-box2 mx-auto  mb-[-10px]'>
-                        <a href="#" className='bttn2' >Client Code</a>
-                        <a href="#" className='bttn2'>Server Code</a>
-                        <a href="#" className='bttn2'>Live Link</a>
+                        <a href="https://github.com/MohammadShahansha/foodRec" className='bttn2' >Client Code</a>
+                        <a href="https://github.com/MohammadShahansha/foodRec-server" className='bttn2'>Server Code</a>
+                        <a href="https://for-assignment-ten.web.app/" className='bttn2'>Live Link</a>
                     </div>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
@@ -71,13 +73,13 @@ const Project = () => {
                     </div>
                     <div class="image-wrap mb-[-10px]">
                         <a href="https://rahmanzeb.com">
-                            <img src={ass10} />
+                            <img src={ass9} />
                         </a>
                     </div>
                     <div className='bttn-box2 mx-auto  mb-[-10px]'>
-                        <a href="#" className='bttn2' >Client Code</a>
-                        <a href="#" className='bttn2'>Server Code</a>
-                        <a href="#" className='bttn2'>Live Link</a>
+                        <a href="https://github.com/MohammadShahansha/jobFeild" className='bttn2' >Client Code</a>
+                        {/* <a href="#" className='bttn2'>Server Code</a> */}
+                        <a href="https://fastidious-phoenix-cb2821.netlify.app/" className='bttn2'>Live Link</a>
                     </div>
                 </VerticalTimelineElement>
             </VerticalTimeline>

@@ -6,6 +6,9 @@
     align-items: center; */
     padding: 0 9%;
 }
+/* .image img{
+   border: linear-gradient(#f06, #3cf);
+} */
 
 .benner-container{
     max-width: 40%;
