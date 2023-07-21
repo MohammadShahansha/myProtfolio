@@ -77,7 +77,7 @@ const Contact = () => {
                         <div className='socials mx-auto md:ms-0'>
                             <a href="https://www.facebook.com/profile.php?id=100083540903880&mibextid=ZbWKwL"><BsFacebook></BsFacebook></a>
                             <a href="https://github.com/MohammadShahansha"><BsGithub></BsGithub></a>
-                            <a href="www.linkedin.com/in/md-shahansha-mia-aa14aa284"><BsLinkedin></BsLinkedin></a>
+                            <a href="https://www.linkedin.com/in/md-shahansha-mia-aa14aa284/"><BsLinkedin></BsLinkedin></a>
                             {/* <a href="#"><BsTelegram></BsTelegram></a> */}
                         </div>
                     </div>
