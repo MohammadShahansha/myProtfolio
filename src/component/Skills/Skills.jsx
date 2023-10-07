@@ -70,7 +70,7 @@ const Skills = () => {
                                 <div className='bar'><span></span></div>
                             </div>
                             <div className='progres'>
-                                <h2>Redux<span>70%</span></h2>
+                                <h2>Redux<span>75%</span></h2>
                                 <div className='bar'><span></span></div>
                             </div>
                             
