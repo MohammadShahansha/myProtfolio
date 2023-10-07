@@ -34,12 +34,12 @@ const Benner = () => {
                 {/* <p className='mb-6 md:mb-auto'>I am Mohammad Shahansha.I am a Bangladeshi.I read in Comilla University in 3rd year and My subject is B.Sc Engineering in Information & Communication Technology. </p> */}
                 <div className='bttn-box'>
                     <a href="mailto:mohammadshahansha111@gmail.com" className='bttn'>Hire Me</a>
-                    <a href="https://drive.google.com/file/d/18T1XlwhtgrwzeV7TzR_0pIJYgDY8PPU0/view?usp=sharing" className='bttn'>Resume</a>
+                    <a href="https://drive.google.com/file/d/1SOJCi8SuJAKZ5Jfy6xZCTXW9HqO9HLbq/view?usp=sharing" className='bttn'>Resume</a>
                 </div>
                 <div className='socials mx-auto md:ms-0'>
                     <a href="https://www.facebook.com/profile.php?id=100083540903880&mibextid=ZbWKwL"><BsFacebook></BsFacebook></a>
                     <a href="https://github.com/MohammadShahansha"><BsGithub></BsGithub></a>
-                    <a href="https://www.linkedin.com/in/md-shahansha-mia-aa14aa284/"><BsLinkedin></BsLinkedin></a>
+                    <a href="https://www.linkedin.com/in/mohammadshahansha/"><BsLinkedin></BsLinkedin></a>
                 </div>
             </div>
 
