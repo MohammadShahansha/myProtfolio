@@ -33,6 +33,10 @@ const Skills = () => {
                                 <h2>ReactJs <span>80%</span></h2>
                                 <div className='bar'><span></span></div>
                             </div>
+                            <div className='progres'>
+                                <h2>NextJs <span>80%</span></h2>
+                                <div className='bar'><span></span></div>
+                            </div>
                         </div>
                     </div>
 
@@ -50,11 +54,11 @@ const Skills = () => {
                                 <div className='bar'><span></span></div>
                             </div>
                             <div className='progres'>
-                                <h2>Node js <span>45%</span></h2>
+                                <h2>NodeJs <span>50%</span></h2>
                                 <div className='bar'><span></span></div>
                             </div>
                             <div className='progres'>
-                                <h2>Express js <span>70%</span></h2>
+                                <h2>ExpressJs <span>70%</span></h2>
                                 <div className='bar'><span></span></div>
                             </div>
                             <div className='progres'>
@@ -63,6 +67,10 @@ const Skills = () => {
                             </div>
                             <div className='progres'>
                                 <h2>Stripe<span>70%</span></h2>
+                                <div className='bar'><span></span></div>
+                            </div>
+                            <div className='progres'>
+                                <h2>Redux<span>70%</span></h2>
                                 <div className='bar'><span></span></div>
                             </div>
                             
